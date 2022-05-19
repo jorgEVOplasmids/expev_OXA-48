@@ -2,7 +2,7 @@
 
 ### Basic microbial population genetics pipeline with Anvi'o ###
 
-# Activate conda environment
+# Allow activation of conda environments
 source ~/anaconda3/etc/profile.d/conda.sh
 
 # Iterate through strains folders
