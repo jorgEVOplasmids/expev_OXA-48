@@ -40,6 +40,6 @@ done
 
 conda deactivate
 
-# For visualization
+# For visualization execute next line with the strain desired
 # anvi-interactive -p anvio/$strain/profiles/$strain-merged/PROFILE.db -c anvio/$strain/complete_contigs.db
 
