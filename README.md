@@ -36,7 +36,7 @@ In order to automatize the execution of all the programs necessary for carrying 
 
 ### Parsing breseq output
 
-As breseq outputs an HTML file per sample analyzed, a Python script (**breseq_index_parser.py**) was developed to transform the HTML output files from all the replicates and samples of each strain and merge them in a single XLSX so that their mutations could be easily compared.
+As breseq outputs an HTML file per sample analyzed, the Python script **breseq_index_parser.py** (https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/breseq_index_parser.py) was developed to transform the HTML output files from all the replicates and samples of each strain and merge them in a single XLSX so that their mutations could be easily compared.
 
 ### Analyzing mutation spectrum
 
