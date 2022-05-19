@@ -26,6 +26,7 @@ Additionally to these Python and R scripts, other software have been necessary t
 * panISa (https://github.com/bvalot/panISa)
 * ISfinder (https://isfinder.biotoul.fr/)
 * Anvi'o (https://anvio.org/)
+* Prokka (https://github.com/tseemann/prokka)
 
 ## From raw reads to variant calling
 
