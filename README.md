@@ -44,6 +44,20 @@ File: https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/
 
 To study the mutation spectrum in the different EE groups, the XLSX files obtained in the previous step were processed with another Python script (**mut_spectrum.py**). It basically checks the results from breseq and summarizes them depending on the nature of the mutations.
 
-### Visualization of variant calling results
+### Summary and visualization of variant calling results
 
 For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene was summarized for each strain using **mut_screening.py**. Then, for displaying the information of multiple samples together, specifically, of K. pneumoniae samples, the data was merged and displayed with **merge_klebsiella.py**.
+
+## Analysis of IS rearrangements
+
+### Summary of IS movements
+
+## Visualization and functional analysis with Anvi'o
+
+### Running anvi'o populations workflow
+
+All the anvi'o programs included in the populations workflow indicated by its developers were included in a script for automatizing the execution of all the necessary steps (https://merenlab.org/tutorials/363
+infant-gut/#chapter-vi-microbial-population-genetics).
+
+File: 
+
