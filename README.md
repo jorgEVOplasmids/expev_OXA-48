@@ -40,3 +40,7 @@ As breseq outputs an HTML file per sample analyzed, a Python script (**breseq_in
 ### Analyzing mutation spectrum
 
 To study the mutation spectrum in the different EE groups, the XLSX files obtained in the previous step were processed with another Python script (**mut_spectrum.py**). It basically checks the results from breseq and summarizes them depending on the nature of the mutations.
+
+### Visualization of variant calling results
+
+For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene was summarized for each strain (**mut_screening.py**). Then, for displaying the information of multiple samples together, specifically, of K. pneumoniae samples, the data was merged and displayed using another script (**merge_klebsiella.py**).
