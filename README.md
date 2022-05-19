@@ -6,7 +6,7 @@ In this repository you'll find the code developed for the analysis of WGS data r
 
 All the scripts included in this project have been developed in order to automatize already developed programs, and to parse, cure and depict all the information obtained by multiple analysis on the evolved bacteria during the experiment (variant calling, analysis of growth curves, analysis of plasmid copy number, etc.).
 
-This README.md file is a brief guide that explains the utility of each script developed during the project. The structure of the repository follows the same as the materials and methods section in the work for the sake of simplicity.
+This README.md file is a brief guide that explains the utility of each script developed during the project. The structure of the repository follows the same as the Materials and Methods section in the work for the sake of simplicity.
 
 Additionally to these Python and R scripts, other software have been necessary to thoroughly analyze this data:
 
@@ -29,3 +29,10 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 ## From raw reads to variant calling
 
+In order to automatize the execution of all the programs necessary for carrying out multiple steps of the analysis (Processing of raw reads + *De novo* assembly + Mapping against reference + Variant calling) the script **breseq_pipeline.sh** was developed. It wraps all the commands necessary for their execution from the UNIX terminal with the specific parameters indicated during the Materials and Methods section.
+
+## Variant calling
+
+### Parsing breseq output
+
+As breseq outputs an HTML file per sample analyzed, a Python script (**breseq_index_parser.py**) was developed to transform the HTML output files from all the replicates and samples of each strain and merge them in a single XLSX so that their mutations could be easily compared.
