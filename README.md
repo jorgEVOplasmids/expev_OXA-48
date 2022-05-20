@@ -30,6 +30,8 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 ![fig_workflow-1](https://user-images.githubusercontent.com/105753869/169509501-fc2f43ce-16b8-4c6c-9548-237d69892ca2.png)
 
+*Summary scheme of the bioinformatic workflow carried out during this project. Input/intermediate data is shown in blue; output data is shown in green.*
+
 ## From raw reads to variant calling
 
 In order to automatize the execution of all the programs necessary for carrying out multiple steps of the analysis (Processing of raw reads + *De novo* assembly + Mapping against reference + Variant calling) the script **breseq_pipeline.sh** was developed. It wraps all the commands necessary for their execution from the UNIX terminal with the specific parameters indicated during the Materials and Methods section.
