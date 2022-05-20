@@ -30,7 +30,7 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 ![fig_workflow-1](https://user-images.githubusercontent.com/105753869/169509501-fc2f43ce-16b8-4c6c-9548-237d69892ca2.png)
 
-*Summary scheme of the bioinformatic workflow carried out during this project. Input/intermediate data is shown in blue; output data is shown in green.*
+*Summary scheme of the bioinformatic workflow carried out during this project. Input/intermediate data is shown in blue; output data is shown in green. Most scripts included in this repository were useful to process all these outputs given by already developed programs mentioned above.*
 
 ## From raw reads to variant calling
 
