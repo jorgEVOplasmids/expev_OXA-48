@@ -28,7 +28,7 @@ Additionally to these Python and R scripts, other software have been necessary t
 * Anvi'o (https://anvio.org/)
 * Prokka (https://github.com/tseemann/prokka)
 
-[fig_workflow_TFM.pdf](https://github.com/jorgEVOplasmids/expev_OXA-48/files/8747478/fig_workflow_TFM.pdf)
+![fig_workflow_TFM-1](https://user-images.githubusercontent.com/105753869/169649360-b021386b-10cc-4614-a0a2-e25511d5c478.png)
 
 *Summary scheme of the bioinformatic workflow carried out during this project. Input/intermediate data is shown in blue; output data is shown in green. Most scripts included in this repository were useful to process all these outputs given by already developed programs mentioned above.*
 
