@@ -62,7 +62,7 @@ For examining parallel evolution events, breseq results were displayed as heatma
 
 ### Running anvi'o populations workflow
 
-All the anvi'o programs included in the populations workflow indicated by its developers were included in a script for automatizing the execution of all the necessary steps (https://merenlab.org/tutorials/363infant-gut/#chapter-vi-microbial-population-genetics).
+All the anvi'o programs included in the populations workflow indicated by its developers were included in a script for automatizing the execution of all the necessary steps (https://merenlab.org/2015/07/20/analyzing-variability/).
 
 File: 
 
