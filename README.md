@@ -32,6 +32,14 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 *Summary scheme of the bioinformatic workflow carried out during this project. Input/intermediate data is shown in blue; output data is shown in green. Most scripts included in this repository were useful to process all these outputs given by already developed programs mentioned above.*
 
+## Analysis of growth curves
+
+Growth curves data was analyzed using a R script. Multiple factors were studied. Firstly, fitness of each plasmid-carrying sample (with and without antibiotic) was compared to its respective plasmid-free sample fitness. This relative fitness gives information about **plasmid cost**. Moreover, growth rate at days 3,5 and 15 of each plasmid-carrying sample was compared to its respective plasmid-free to check possible **cost compensation**. Finally, bacterial growth at the end and beggining of the EE was compared to see if there had been an **improvement in fitness during the evolution**. All these comparisons are performed in the same script, as well as the code for plotting all the results.
+
+File:
+
+
+
 ## From raw reads to variant calling
 
 In order to automatize the execution of all the programs necessary for carrying out multiple steps of the analysis (Processing of raw reads + *De novo* assembly + Mapping against reference + Variant calling) the script **breseq_pipeline.sh** was developed. It wraps all the commands necessary for their execution from the UNIX terminal with the specific parameters indicated during the Materials and Methods section.
