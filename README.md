@@ -34,7 +34,7 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 ## Analysis of growth curves
 
-Growth curves data was analyzed using R. Multiple factors were studied. Firstly, fitness of each plasmid-carrying sample (with and without antibiotic) was compared to its respective plasmid-free sample fitness. This relative fitness gives information about **plasmid cost**. Moreover, growth rate at days 3,5 and 15 of each plasmid-carrying sample was compared to its respective plasmid-free to check possible **cost compensation**. Finally, bacterial growth at the end and beggining of the EE was compared to see if there had been an **improvement in fitness during the evolution**. All these comparisons are performed in the same R script (**analysis_plasmid_cost.R**), as well as the code for plotting all the results. <mark >Highlighted text</mark>
+Growth curves data was analyzed using R. Multiple factors were studied. Firstly, fitness of each plasmid-carrying sample (with and without antibiotic) was compared to its respective plasmid-free sample fitness. This relative fitness gives information about **plasmid cost**. Moreover, growth rate at days 3,5 and 15 of each plasmid-carrying sample was compared to its respective plasmid-free to check possible **cost compensation**. Finally, bacterial growth at the end and beggining of the EE was compared to see if there had been an **improvement in fitness during the evolution**. All these comparisons are performed in the same R script (**analysis_plasmid_cost.R**), as well as the code for plotting all the results.
 
 File:
 
