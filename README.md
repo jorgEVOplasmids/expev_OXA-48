@@ -44,6 +44,8 @@ File:
 
 In order to automatize the execution of all the programs necessary for carrying out multiple steps of the analysis (Processing of raw reads + *De novo* assembly + Mapping against reference + Variant calling) the script **breseq_pipeline.sh** was developed. It wraps all the commands necessary for their execution from the UNIX terminal with the specific parameters indicated during the Materials and Methods section.
 
+File:
+
 ## Variant calling
 
 ### Parsing breseq output
@@ -58,13 +60,21 @@ https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/breseq
 
 To study the mutation spectrum in the different EE groups, the XLSX files obtained in the previous step were processed with another Python script (**mut_spectrum.py**). It basically checks the results from breseq and summarizes them depending on the nature of the mutations.
 
+File:
+
 ### Summary and visualization of variant calling results
 
 For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene was summarized for each strain using **mut_screening.py**. Then, for displaying the information of multiple samples together, specifically, of *K. pneumoniae* samples, the data was merged and displayed with **merge_klebsiella.py**.
 
+Files:
+
 ## Analysis of IS rearrangements
 
 ### Summary of IS movements
+
+To study the influence of IS movements in each EE group, a Python script which detects the variant calling events annotated as IS was written. Besides, the calculous of the percentage of IS movements due to the pOXA-48 was included in the code. Finally, statistical analysis comparing the number of IS rearrangements in presence and in absence of pOXA-48 were performed in R.
+
+Files:
 
 ## Visualization and functional analysis with Anvi'o
 
