@@ -74,6 +74,8 @@ Files:
 
 https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/mut_screening.py
 
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/rename_genes.py
+
 https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/merge_klebsiella.py
 
 ## Analysis of IS rearrangements
