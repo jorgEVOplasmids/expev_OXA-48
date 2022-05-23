@@ -38,7 +38,7 @@ Growth curves data was analyzed using R. Multiple factors were studied. Firstly,
 
 File:
 
-
+https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/curves/analyses_curves_stats_and_plots.R
 
 ## From raw reads to variant calling
 
