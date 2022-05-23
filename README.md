@@ -92,7 +92,7 @@ For identifying the genes targeted by pOXA-48 IS elements, **is_targets.py** was
 
 File:
 
-
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/is_analysis/is_targets.py
 
 ## Visualization and functional analysis with Anvi'o
 
