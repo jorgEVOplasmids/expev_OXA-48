@@ -84,7 +84,7 @@ https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/merge_
 
 ### Summary of IS movements
 
-To study the influence of IS movements in each EE group, a Python script which detects the variant calling events annotated as IS was written. Besides, the calculous of the percentage of IS movements due to the pOXA-48 was included in the code. Finally, statistical analysis comparing the number of IS rearrangements in presence and in absence of pOXA-48 were performed in R.
+To study the influence of IS movements in each EE group, a Python script which detects the variant calling events annotated as IS was written (**IS_rearrangements.py**). Besides, the calculous of the percentage of IS movements due to the pOXA-48 was included in the code. Finally, statistical analysis comparing the number of IS rearrangements in presence and in absence of pOXA-48 were performed in R (**IS_stats.R**).
 
 Files:
 
