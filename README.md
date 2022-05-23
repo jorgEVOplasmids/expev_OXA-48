@@ -58,7 +58,7 @@ https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/breseq
 
 ### Analyzing mutation spectrum
 
-To study the mutation spectrum in the different EE groups, the XLSX files obtained in the previous step were processed with another Python script (**mut_spectrum.py**). It basically checks the results from breseq and summarizes them depending on the nature of the mutations.
+To study the mutation spectrum in the different EE groups, the XLSX files obtained in the previous step were processed with another Python script (**mut_spectrum.py**). It basically checks the results from breseq and summarizes them depending on the nature of the mutations and their type (synonymous, non-synonymous or intergenic; SNP/Indel or New Junction).
 
 File:
 
