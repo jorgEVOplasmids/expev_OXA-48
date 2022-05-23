@@ -46,6 +46,8 @@ In order to automatize the execution of all the programs necessary for carrying 
 
 File:
 
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/rawreads_to_vcall/breseq_pipeline.sh
+
 ## Variant calling
 
 ### Parsing breseq output
