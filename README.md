@@ -62,11 +62,17 @@ To study the mutation spectrum in the different EE groups, the XLSX files obtain
 
 File:
 
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/mut_spectrum.py
+
 ### Summary and visualization of variant calling results
 
 For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene was summarized for each strain using **mut_screening.py**. Then, for displaying the information of multiple samples together, specifically, of *K. pneumoniae* samples, the data was merged and displayed with **merge_klebsiella.py**.
 
 Files:
+
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/mut_screening.py
+
+https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/merge_klebsiella.py
 
 ## Analysis of IS rearrangements
 
