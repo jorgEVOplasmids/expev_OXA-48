@@ -89,6 +89,7 @@ To study the influence of IS movements in each EE group, a Python script which d
 Files:
 
 https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/is_analysis/IS_rearrangements.py
+https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/is_analysis/IS_stats.R
 
 ### Identification of pOXA-48 IS targets
 
