@@ -96,6 +96,16 @@ File:
 
 https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/is_analysis/is_targets.py
 
+## Analysis of PCN
+
+### Statistical analysis of PCN and plotting
+
+For the statistical analyses carried out on PCN data (multiple comparisons and LME), and representing the PCN of all the plasmids contained in each strain replicate, the script **pcn_plots_stats.R** was developed. It includes all the statistics and code for plotting the boxplots shown in the project.
+
+File:
+
+
+
 ## Visualization and functional analysis with Anvi'o
 
 ### Running anvi'o populations workflow
