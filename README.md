@@ -66,7 +66,7 @@ https://github.com/jorgEVOplasmids/expev_OXA-48/blob/main/variant_calling/mut_sp
 
 ### Summary and visualization of variant calling results
 
-For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene were summarized for each strain using **mut_screening.py**. However, breseq results indicated the mutations affecting genes with the PGAP annotation. Many of these 
+For examining parallel evolution events, breseq results were displayed as heatmaps showing the frequency of mutations affecting each gene in each strain replicate depending on its EE group and mutation type (SNPs/Indels or NJ evidences). For this, firstly, the frequency of all mutations affecting a gene were summarized for each strain using **mut_screening.py**. However, breseq results indicated the mutations affecting genes with the PGAP annotation. Many of these do not count with a gene name and are annotated with a generic identifier (pgap_ + number). Thus, for analyzing the variant calling results in an easier way, those genes annotated with the PGAP generic identifier were renamed with the PGAP description (which gives information about the gene function and sometimes includes the actual gene name) with the script **rename_genes.py**.
 
 Then, for displaying the information of multiple samples together, specifically, of *K. pneumoniae* samples, the data was merged and displayed with **merge_klebsiella.py**.
 
