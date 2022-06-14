@@ -8,7 +8,7 @@ All the scripts included in this project have been developed in order to automat
 
 This README.md file is a brief guide that explains the utility of each script developed during the project. The structure of the repository follows the same as the Materials and Methods section in the work for the sake of simplicity.
 
-Additionally to these Python and R scripts, other software have been necessary to thoroughly analyze this data:
+Additionally to these Python and R scripts, other software have been necessary to thoroughly analyze this data are:
 
 * FastQC (https://github.com/s-andrews/FastQC)
 * MultiQC (https://github.com/ewels/MultiQC)
