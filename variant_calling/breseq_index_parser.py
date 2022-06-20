@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# Authors: Toribio-Celestino, Laura; Sastre-Dominguez, Jorge.
+
 from bs4 import BeautifulSoup
 import openpyxl
 import pandas as pd
