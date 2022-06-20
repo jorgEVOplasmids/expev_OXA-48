@@ -34,11 +34,12 @@ Additionally to these Python and R scripts, other software have been necessary t
 
 ## Analysis of growth curves
 
-Growth curves data was analyzed using R. Multiple factors were studied. Firstly, fitness of each plasmid-carrying sample (with and without antibiotic) was compared to its respective plasmid-free sample fitness. This relative fitness gives information about **plasmid cost**. Moreover, growth rate at days 3,5 and 15 of each plasmid-carrying sample was compared to its respective plasmid-free to check possible **cost compensation**. Finally, bacterial growth at the end and beginning of the EE was compared to see if there had been an **improvement in fitness during the evolution**. All these comparisons are performed in the same R script (**analyses_curves_stats_and_plots.R**), as well as the code for plotting all the results.
+Growth curves data was analyzed using R. Multiple factors were studied. Firstly, fitness of each plasmid-carrying sample (with and without antibiotic) was compared to its respective plasmid-free sample fitness at day 0. This relative fitness gives information about **plasmid cost**. Moreover, growth rate at days 3,5 and 15 of each plasmid-carrying sample was compared to its respective plasmid-free to check possible **cost compensation**. Finally, bacterial growth at the end and beginning of the EE was compared to see if there had been an **improvement in fitness during the evolution**. All the data from the growth curves was reshaped to allow the analyses and to plot the data (**analyses_curves_and_plots.R**), as well as for performing the statistical comparisons (**stats_curves.R**).
 
-File:
+Files:
 
-https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/curves/analyses_curves_stats_and_plots.R
+https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/curves/analysis_curves_and_plots.R
+https://github.com/jorgEVOplasmids/expev_pOXA-48/blob/main/curves/stats_curves.R
 
 ## From raw reads to variant calling
 
